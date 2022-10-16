@@ -38,14 +38,9 @@ body {
     justify-content: center; 
 }
 
-.navbar {
+.navbar-child {
     display: flex;
-    justify-content: center;
-    
-}
-
-.navbar a {
-    
+    justify-content: space-evenly;
 }
 
 .banner {
@@ -56,8 +51,56 @@ body {
     align-items: center;
 }
 
+.title1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.coname {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portpics1 img {
+    height: 150px;
+}
+
+.portpics2 img {
+    height: 150px;
+}
+
+.portpics1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portpics2 {
+    display: flex;
+    justify-content: space-around;
+}
+
 .team {
     background-image: url(pics/team.jpg);
     color: white;
     display: flex;
+}
+
+.title4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
